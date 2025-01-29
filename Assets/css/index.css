@@ -1,0 +1,48 @@
+body {
+    margin: auto;
+}
+
+.container-header {
+    background-image: url(../img/kai-pilger-Ef6iL87-vOA-unsplash.jpg);
+    color: white;
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+
+#container-planets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);  
+    gap: 1.5rem;                             
+    padding: 1.5rem;
+}
+
+.planet {
+    background: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.planet-title {
+    font-size: 2rem;
+    margin: 0.75rem 0rem;
+}
+
+.planet p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.planet-meta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
